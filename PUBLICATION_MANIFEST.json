@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-05",
+  "title": "IMDB sentiment classification",
+  "runtime_verified_for_publication": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "5d88202b853217c723bde4ea54206901e0bb7f1e0e782347d799332a294adc6f",
+      "bytes": 421
+    },
+    {
+      "path": "README.md",
+      "sha256": "f4787d0ccd417626061ce0246fdc09f24caec8a7b7a4d8f68f652246842f12ef",
+      "bytes": 828
+    },
+    {
+      "path": "task_1.ipynb",
+      "sha256": "7cdf8dbe92dc72a025473f803abfbf71c793d21cc7bb9188a3cba2186701e8bf",
+      "bytes": 5978
+    }
+  ]
+}
