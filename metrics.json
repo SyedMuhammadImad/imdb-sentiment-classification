@@ -1,0 +1,126 @@
+{
+  "dataset": "IMDB supplied CSV",
+  "seed": 42,
+  "train_rows": 39662,
+  "test_rows": 9916,
+  "duplicates_and_conflicts_removed": true,
+  "train_test_text_overlap": 0,
+  "models": {
+    "LogisticRegression": {
+      "accuracy": 0.8786809197256958,
+      "macro_f1": 0.8786628524993512,
+      "classification_report": {
+        "negative": {
+          "precision": 0.8846787479406919,
+          "recall": 0.8698117027738409,
+          "f1-score": 0.8771822358346095,
+          "support": 4939.0
+        },
+        "positive": {
+          "precision": 0.8729249011857707,
+          "recall": 0.8874824191279888,
+          "f1-score": 0.8801434691640928,
+          "support": 4977.0
+        },
+        "accuracy": 0.8786809197256958,
+        "macro avg": {
+          "precision": 0.8788018245632313,
+          "recall": 0.8786470609509148,
+          "f1-score": 0.8786628524993512,
+          "support": 9916.0
+        },
+        "weighted avg": {
+          "precision": 0.8787793030738864,
+          "recall": 0.8786809197256958,
+          "f1-score": 0.8786685265043188,
+          "support": 9916.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          4296,
+          643
+        ],
+        [
+          560,
+          4417
+        ]
+      ],
+      "top_training_words": {
+        "movie": 70336,
+        "film": 63276,
+        "like": 31980,
+        "just": 27981,
+        "good": 23577,
+        "time": 19926,
+        "story": 18471,
+        "really": 18278,
+        "bad": 14698,
+        "great": 14435,
+        "people": 14379,
+        "don": 14025,
+        "make": 12713,
+        "way": 12386,
+        "movies": 12220
+      }
+    },
+    "MultinomialNB": {
+      "accuracy": 0.8564945542557483,
+      "macro_f1": 0.856468733035378,
+      "classification_report": {
+        "negative": {
+          "precision": 0.8440313111545988,
+          "recall": 0.8732536950799757,
+          "f1-score": 0.8583938700368196,
+          "support": 4939.0
+        },
+        "positive": {
+          "precision": 0.869746150645027,
+          "recall": 0.8398633715089411,
+          "f1-score": 0.8545435960339364,
+          "support": 4977.0
+        },
+        "accuracy": 0.8564945542557483,
+        "macro avg": {
+          "precision": 0.856888730899813,
+          "recall": 0.8565585332944584,
+          "f1-score": 0.856468733035378,
+          "support": 9916.0
+        },
+        "weighted avg": {
+          "precision": 0.8569380029803212,
+          "recall": 0.8564945542557483,
+          "f1-score": 0.8564613555438435,
+          "support": 9916.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          4313,
+          626
+        ],
+        [
+          797,
+          4180
+        ]
+      ],
+      "top_training_words": {
+        "movie": 70336,
+        "film": 63276,
+        "like": 31980,
+        "just": 27981,
+        "good": 23577,
+        "time": 19926,
+        "story": 18471,
+        "really": 18278,
+        "bad": 14698,
+        "great": 14435,
+        "people": 14379,
+        "don": 14025,
+        "make": 12713,
+        "way": 12386,
+        "movies": 12220
+      }
+    }
+  }
+}

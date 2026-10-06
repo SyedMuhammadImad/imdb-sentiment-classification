@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-07",
   "title": "IMDB sentiment classification",
-  "runtime_verified_for_publication": false,
+  "completion_gate_passed": true,
   "files": [
     {
       "path": ".gitignore",
@@ -9,14 +9,34 @@
       "bytes": 421
     },
     {
+      "path": "classify.py",
+      "sha256": "a6ab63ed2fe542af6beeb5b6fc32c1986f34bdc167c237d4a761d5ca582c1406",
+      "bytes": 3113
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "9950b71be4580e4fd3419caaec4a32be0dbbdb818dcca97ea450967cd2bca22b",
+      "bytes": 3238
+    },
+    {
       "path": "README.md",
-      "sha256": "f4787d0ccd417626061ce0246fdc09f24caec8a7b7a4d8f68f652246842f12ef",
-      "bytes": 828
+      "sha256": "efa606f309a56382be865dd095fc4b285c1dcc234d09564d3f83d0ee9232a1f3",
+      "bytes": 899
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "7d6fb71d95a969304a66b1e5bbce375804a5f13031230f555ccbdf1dcdc032fe",
+      "bytes": 50
     },
     {
       "path": "task_1.ipynb",
-      "sha256": "7cdf8dbe92dc72a025473f803abfbf71c793d21cc7bb9188a3cba2186701e8bf",
-      "bytes": 5978
+      "sha256": "bc695f2efdfaed4eb10173e3aac36de0af87cbe67634ada523390bcc7ed732c7",
+      "bytes": 2485
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "c68d8d7bec6b1273f8e6348eeff607c55357be86ec50f604c4bff6c53d3153a5",
+      "bytes": 717
     }
   ]
 }
