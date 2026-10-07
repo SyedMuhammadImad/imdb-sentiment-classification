@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "title": "IMDB sentiment classification",
   "completion_gate_passed": true,
   "files": [
@@ -30,13 +30,13 @@
     },
     {
       "path": "task_1.ipynb",
-      "sha256": "bc695f2efdfaed4eb10173e3aac36de0af87cbe67634ada523390bcc7ed732c7",
-      "bytes": 2485
+      "sha256": "db6bc097735c211a01b813492acc606b1e878e8cf3c27da3f3614fbd87a4d0c3",
+      "bytes": 2489
     },
     {
       "path": "VERIFICATION.json",
-      "sha256": "c68d8d7bec6b1273f8e6348eeff607c55357be86ec50f604c4bff6c53d3153a5",
-      "bytes": 717
+      "sha256": "bd7deef78e463841c845b518fa7a220d8d459906cc88ba6d2a954ef41036d9e9",
+      "bytes": 725
     }
   ]
 }
